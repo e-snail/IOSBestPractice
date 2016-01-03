@@ -13,8 +13,11 @@
 
 int main(int argc, char * argv[]) {
     @autoreleasepool {
+        //singleton usage
+        /*
         SingletonInstance *instance = [SingletonInstance sharedInstance];
         NSLog(@"property is %@", [instance defaultProperty]);
+        */
         
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }

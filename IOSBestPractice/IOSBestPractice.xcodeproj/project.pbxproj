@@ -12,10 +12,20 @@
 		11A473261C37BC8C001F8BBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A473251C37BC8C001F8BBE /* ViewController.m */; };
 		11A473291C37BC8C001F8BBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A473271C37BC8C001F8BBE /* Main.storyboard */; };
 		11A4732B1C37BC8C001F8BBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11A4732A1C37BC8C001F8BBE /* Assets.xcassets */; };
-		11A4732E1C37BC8C001F8BBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A4732C1C37BC8C001F8BBE /* LaunchScreen.storyboard */; };
 		11A473391C37BC8C001F8BBE /* IOSBestPracticeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A473381C37BC8C001F8BBE /* IOSBestPracticeTests.m */; };
 		11A473441C37BC8C001F8BBE /* IOSBestPracticeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A473431C37BC8C001F8BBE /* IOSBestPracticeUITests.m */; };
 		11A473541C37BFA0001F8BBE /* SingletonInstance.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A473531C37BFA0001F8BBE /* SingletonInstance.m */; };
+		11A473571C38183E001F8BBE /* CTDisplayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A473561C38183E001F8BBE /* CTDisplayView.m */; };
+		11A4735C1C381EBA001F8BBE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 11A4735B1C381EBA001F8BBE /* Main_iPhone.storyboard */; };
+		11A473611C38C6DC001F8BBE /* UIView+frameAdjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A473601C38C6DC001F8BBE /* UIView+frameAdjust.m */; };
+		11A473651C38CA2A001F8BBE /* CTFrameParserConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A473641C38CA2A001F8BBE /* CTFrameParserConfig.m */; };
+		11A473691C393A45001F8BBE /* CTFrameParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A473681C393A45001F8BBE /* CTFrameParser.m */; };
+		11A4736C1C393C2B001F8BBE /* CoreTextData.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A4736B1C393C2B001F8BBE /* CoreTextData.m */; };
+		11A4736F1C393FA4001F8BBE /* CoreTextImageData.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A4736E1C393FA4001F8BBE /* CoreTextImageData.m */; };
+		11A473721C397244001F8BBE /* CoreTextLinkData.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A473711C397244001F8BBE /* CoreTextLinkData.m */; };
+		11A473751C39739D001F8BBE /* CoreTextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A473741C39739D001F8BBE /* CoreTextUtils.m */; };
+		11A473781C397856001F8BBE /* MagnifiterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A473771C397856001F8BBE /* MagnifiterView.m */; };
+		11A4737C1C397BEB001F8BBE /* CTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A4737B1C397BEB001F8BBE /* CTViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +54,6 @@
 		11A473251C37BC8C001F8BBE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		11A473281C37BC8C001F8BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		11A4732A1C37BC8C001F8BBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		11A4732D1C37BC8C001F8BBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		11A4732F1C37BC8C001F8BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11A473341C37BC8C001F8BBE /* IOSBestPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IOSBestPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A473381C37BC8C001F8BBE /* IOSBestPracticeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = IOSBestPracticeTests.m; sourceTree = "<group>"; };
@@ -54,6 +63,28 @@
 		11A473451C37BC8C001F8BBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		11A473521C37BDB1001F8BBE /* SingletonInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonInstance.h; sourceTree = "<group>"; };
 		11A473531C37BFA0001F8BBE /* SingletonInstance.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SingletonInstance.m; sourceTree = "<group>"; };
+		11A473561C38183E001F8BBE /* CTDisplayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDisplayView.m; sourceTree = "<group>"; };
+		11A473581C381881001F8BBE /* CTDisplayView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTDisplayView.h; sourceTree = "<group>"; };
+		11A4735B1C381EBA001F8BBE /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		11A4735D1C382712001F8BBE /* CoreTextDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CoreTextDemo-Prefix.pch"; sourceTree = "<group>"; };
+		11A4735F1C38C5B6001F8BBE /* UIView+frameAdjust.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+frameAdjust.h"; sourceTree = "<group>"; };
+		11A473601C38C6DC001F8BBE /* UIView+frameAdjust.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+frameAdjust.m"; sourceTree = "<group>"; };
+		11A473641C38CA2A001F8BBE /* CTFrameParserConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameParserConfig.m; sourceTree = "<group>"; };
+		11A473661C38CA4B001F8BBE /* CTFrameParserConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTFrameParserConfig.h; sourceTree = "<group>"; };
+		11A473671C3939D5001F8BBE /* CTFrameParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTFrameParser.h; sourceTree = "<group>"; };
+		11A473681C393A45001F8BBE /* CTFrameParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTFrameParser.m; sourceTree = "<group>"; };
+		11A4736A1C393C0A001F8BBE /* CoreTextData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreTextData.h; sourceTree = "<group>"; };
+		11A4736B1C393C2B001F8BBE /* CoreTextData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextData.m; sourceTree = "<group>"; };
+		11A4736D1C393F83001F8BBE /* CoreTextImageData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreTextImageData.h; sourceTree = "<group>"; };
+		11A4736E1C393FA4001F8BBE /* CoreTextImageData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextImageData.m; sourceTree = "<group>"; };
+		11A473701C397220001F8BBE /* CoreTextLinkData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreTextLinkData.h; sourceTree = "<group>"; };
+		11A473711C397244001F8BBE /* CoreTextLinkData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextLinkData.m; sourceTree = "<group>"; };
+		11A473731C3972AB001F8BBE /* CoreTextUtils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoreTextUtils.h; sourceTree = "<group>"; };
+		11A473741C39739D001F8BBE /* CoreTextUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextUtils.m; sourceTree = "<group>"; };
+		11A473761C39782E001F8BBE /* MagnifiterView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MagnifiterView.h; sourceTree = "<group>"; };
+		11A473771C397856001F8BBE /* MagnifiterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnifiterView.m; sourceTree = "<group>"; };
+		11A4737A1C397B9A001F8BBE /* CTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTViewController.h; sourceTree = "<group>"; };
+		11A4737B1C397BEB001F8BBE /* CTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +135,7 @@
 		11A4731D1C37BC8C001F8BBE /* IOSBestPractice */ = {
 			isa = PBXGroup;
 			children = (
+				11A473551C3817F5001F8BBE /* CoreText */,
 				11A473511C37BCC9001F8BBE /* Singleton */,
 				11A473211C37BC8C001F8BBE /* AppDelegate.h */,
 				11A473221C37BC8C001F8BBE /* AppDelegate.m */,
@@ -111,9 +143,10 @@
 				11A473251C37BC8C001F8BBE /* ViewController.m */,
 				11A473271C37BC8C001F8BBE /* Main.storyboard */,
 				11A4732A1C37BC8C001F8BBE /* Assets.xcassets */,
-				11A4732C1C37BC8C001F8BBE /* LaunchScreen.storyboard */,
+				11A4735B1C381EBA001F8BBE /* Main_iPhone.storyboard */,
 				11A4732F1C37BC8C001F8BBE /* Info.plist */,
 				11A4731E1C37BC8C001F8BBE /* Supporting Files */,
+				11A4735D1C382712001F8BBE /* CoreTextDemo-Prefix.pch */,
 			);
 			path = IOSBestPractice;
 			sourceTree = "<group>";
@@ -151,6 +184,57 @@
 				11A473531C37BFA0001F8BBE /* SingletonInstance.m */,
 			);
 			name = Singleton;
+			sourceTree = "<group>";
+		};
+		11A473551C3817F5001F8BBE /* CoreText */ = {
+			isa = PBXGroup;
+			children = (
+				11A473791C397B42001F8BBE /* Controllers */,
+				11A473631C38C9E7001F8BBE /* Models */,
+				11A4735E1C38C4D1001F8BBE /* Views */,
+			);
+			name = CoreText;
+			sourceTree = "<group>";
+		};
+		11A4735E1C38C4D1001F8BBE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				11A473561C38183E001F8BBE /* CTDisplayView.m */,
+				11A473581C381881001F8BBE /* CTDisplayView.h */,
+				11A4735F1C38C5B6001F8BBE /* UIView+frameAdjust.h */,
+				11A473601C38C6DC001F8BBE /* UIView+frameAdjust.m */,
+				11A473761C39782E001F8BBE /* MagnifiterView.h */,
+				11A473771C397856001F8BBE /* MagnifiterView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		11A473631C38C9E7001F8BBE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				11A473641C38CA2A001F8BBE /* CTFrameParserConfig.m */,
+				11A473661C38CA4B001F8BBE /* CTFrameParserConfig.h */,
+				11A473671C3939D5001F8BBE /* CTFrameParser.h */,
+				11A473681C393A45001F8BBE /* CTFrameParser.m */,
+				11A4736A1C393C0A001F8BBE /* CoreTextData.h */,
+				11A4736B1C393C2B001F8BBE /* CoreTextData.m */,
+				11A4736D1C393F83001F8BBE /* CoreTextImageData.h */,
+				11A4736E1C393FA4001F8BBE /* CoreTextImageData.m */,
+				11A473701C397220001F8BBE /* CoreTextLinkData.h */,
+				11A473711C397244001F8BBE /* CoreTextLinkData.m */,
+				11A473731C3972AB001F8BBE /* CoreTextUtils.h */,
+				11A473741C39739D001F8BBE /* CoreTextUtils.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		11A473791C397B42001F8BBE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				11A4737A1C397B9A001F8BBE /* CTViewController.h */,
+				11A4737B1C397BEB001F8BBE /* CTViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,7 +340,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				11A4732E1C37BC8C001F8BBE /* LaunchScreen.storyboard in Resources */,
+				11A4735C1C381EBA001F8BBE /* Main_iPhone.storyboard in Resources */,
 				11A4732B1C37BC8C001F8BBE /* Assets.xcassets in Resources */,
 				11A473291C37BC8C001F8BBE /* Main.storyboard in Resources */,
 			);
@@ -284,9 +368,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				11A473261C37BC8C001F8BBE /* ViewController.m in Sources */,
+				11A473751C39739D001F8BBE /* CoreTextUtils.m in Sources */,
+				11A473781C397856001F8BBE /* MagnifiterView.m in Sources */,
+				11A473721C397244001F8BBE /* CoreTextLinkData.m in Sources */,
+				11A4736F1C393FA4001F8BBE /* CoreTextImageData.m in Sources */,
+				11A473691C393A45001F8BBE /* CTFrameParser.m in Sources */,
+				11A473611C38C6DC001F8BBE /* UIView+frameAdjust.m in Sources */,
+				11A473571C38183E001F8BBE /* CTDisplayView.m in Sources */,
 				11A473231C37BC8C001F8BBE /* AppDelegate.m in Sources */,
+				11A4736C1C393C2B001F8BBE /* CoreTextData.m in Sources */,
 				11A473541C37BFA0001F8BBE /* SingletonInstance.m in Sources */,
+				11A473651C38CA2A001F8BBE /* CTFrameParserConfig.m in Sources */,
 				11A473201C37BC8C001F8BBE /* main.m in Sources */,
+				11A4737C1C397BEB001F8BBE /* CTViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,14 +422,6 @@
 				11A473281C37BC8C001F8BBE /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		11A4732C1C37BC8C001F8BBE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				11A4732D1C37BC8C001F8BBE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -427,6 +513,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IOSBestPractice/CoreTextDemo-Prefix.pch";
 				INFOPLIST_FILE = IOSBestPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bestpractice.IOSBestPractice;
@@ -438,6 +526,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/IOSBestPractice/CoreTextDemo-Prefix.pch";
 				INFOPLIST_FILE = IOSBestPractice/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = bestpractice.IOSBestPractice;
@@ -512,6 +602,7 @@
 				11A4734A1C37BC8C001F8BBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11A4734B1C37BC8C001F8BBE /* Build configuration list for PBXNativeTarget "IOSBestPracticeTests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +611,7 @@
 				11A4734D1C37BC8C001F8BBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		11A4734E1C37BC8C001F8BBE /* Build configuration list for PBXNativeTarget "IOSBestPracticeUITests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +620,7 @@
 				11A473501C37BC8C001F8BBE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

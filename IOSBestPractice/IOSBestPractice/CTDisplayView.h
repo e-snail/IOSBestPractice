@@ -6,7 +6,7 @@
 //  Copyright © 2016年 Wilbur.Wu. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 #import "CoreTextData.h"
 
 extern NSString *const CTDisplayViewImagePressedNotification;

@@ -26,6 +26,10 @@
 		11A473751C39739D001F8BBE /* CoreTextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A473741C39739D001F8BBE /* CoreTextUtils.m */; };
 		11A473781C397856001F8BBE /* MagnifiterView.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A473771C397856001F8BBE /* MagnifiterView.m */; };
 		11A4737C1C397BEB001F8BBE /* CTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A4737B1C397BEB001F8BBE /* CTViewController.m */; };
+		11A8311F1C3EC5F700A42A1A /* WebContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A8311D1C3EC5F700A42A1A /* WebContentViewController.m */; };
+		11A831201C3EC5F700A42A1A /* WebContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11A8311E1C3EC5F700A42A1A /* WebContentViewController.xib */; };
+		11A831241C3ECB3D00A42A1A /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A831221C3ECB3D00A42A1A /* ImageViewController.m */; };
+		11A831251C3ECB3D00A42A1A /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11A831231C3ECB3D00A42A1A /* ImageViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +89,12 @@
 		11A473771C397856001F8BBE /* MagnifiterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MagnifiterView.m; sourceTree = "<group>"; };
 		11A4737A1C397B9A001F8BBE /* CTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTViewController.h; sourceTree = "<group>"; };
 		11A4737B1C397BEB001F8BBE /* CTViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTViewController.m; sourceTree = "<group>"; };
+		11A8311C1C3EC5F700A42A1A /* WebContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebContentViewController.h; sourceTree = "<group>"; };
+		11A8311D1C3EC5F700A42A1A /* WebContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebContentViewController.m; sourceTree = "<group>"; };
+		11A8311E1C3EC5F700A42A1A /* WebContentViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebContentViewController.xib; sourceTree = "<group>"; };
+		11A831211C3ECB3D00A42A1A /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		11A831221C3ECB3D00A42A1A /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		11A831231C3ECB3D00A42A1A /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -233,6 +243,12 @@
 			children = (
 				11A4737A1C397B9A001F8BBE /* CTViewController.h */,
 				11A4737B1C397BEB001F8BBE /* CTViewController.m */,
+				11A8311C1C3EC5F700A42A1A /* WebContentViewController.h */,
+				11A8311D1C3EC5F700A42A1A /* WebContentViewController.m */,
+				11A8311E1C3EC5F700A42A1A /* WebContentViewController.xib */,
+				11A831211C3ECB3D00A42A1A /* ImageViewController.h */,
+				11A831221C3ECB3D00A42A1A /* ImageViewController.m */,
+				11A831231C3ECB3D00A42A1A /* ImageViewController.xib */,
 			);
 			name = Controllers;
 			sourceTree = "<group>";
@@ -340,7 +356,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11A831251C3ECB3D00A42A1A /* ImageViewController.xib in Resources */,
 				11A4735C1C381EBA001F8BBE /* Main_iPhone.storyboard in Resources */,
+				11A831201C3EC5F700A42A1A /* WebContentViewController.xib in Resources */,
 				11A4732B1C37BC8C001F8BBE /* Assets.xcassets in Resources */,
 				11A473291C37BC8C001F8BBE /* Main.storyboard in Resources */,
 			);
@@ -369,6 +387,7 @@
 			files = (
 				11A473261C37BC8C001F8BBE /* ViewController.m in Sources */,
 				11A473751C39739D001F8BBE /* CoreTextUtils.m in Sources */,
+				11A831241C3ECB3D00A42A1A /* ImageViewController.m in Sources */,
 				11A473781C397856001F8BBE /* MagnifiterView.m in Sources */,
 				11A473721C397244001F8BBE /* CoreTextLinkData.m in Sources */,
 				11A4736F1C393FA4001F8BBE /* CoreTextImageData.m in Sources */,
@@ -379,6 +398,7 @@
 				11A4736C1C393C2B001F8BBE /* CoreTextData.m in Sources */,
 				11A473541C37BFA0001F8BBE /* SingletonInstance.m in Sources */,
 				11A473651C38CA2A001F8BBE /* CTFrameParserConfig.m in Sources */,
+				11A8311F1C3EC5F700A42A1A /* WebContentViewController.m in Sources */,
 				11A473201C37BC8C001F8BBE /* main.m in Sources */,
 				11A4737C1C397BEB001F8BBE /* CTViewController.m in Sources */,
 			);

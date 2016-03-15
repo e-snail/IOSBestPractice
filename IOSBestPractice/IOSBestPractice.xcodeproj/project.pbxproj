@@ -30,6 +30,7 @@
 		11A831201C3EC5F700A42A1A /* WebContentViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11A8311E1C3EC5F700A42A1A /* WebContentViewController.xib */; };
 		11A831241C3ECB3D00A42A1A /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A831221C3ECB3D00A42A1A /* ImageViewController.m */; };
 		11A831251C3ECB3D00A42A1A /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11A831231C3ECB3D00A42A1A /* ImageViewController.xib */; };
+		11F53CAB1C98516B008031F5 /* MultithreadPractice.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F53CAA1C98516B008031F5 /* MultithreadPractice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -95,6 +96,8 @@
 		11A831211C3ECB3D00A42A1A /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
 		11A831221C3ECB3D00A42A1A /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 		11A831231C3ECB3D00A42A1A /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
+		11F53CA91C985106008031F5 /* MultithreadPractice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultithreadPractice.h; sourceTree = "<group>"; };
+		11F53CAA1C98516B008031F5 /* MultithreadPractice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultithreadPractice.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +148,8 @@
 		11A4731D1C37BC8C001F8BBE /* IOSBestPractice */ = {
 			isa = PBXGroup;
 			children = (
+				11F53CA81C9850DD008031F5 /* Multithread */,
+				11A831271C4A49E900A42A1A /* Swift */,
 				11A473551C3817F5001F8BBE /* CoreText */,
 				11A473511C37BCC9001F8BBE /* Singleton */,
 				11A473211C37BC8C001F8BBE /* AppDelegate.h */,
@@ -251,6 +256,22 @@
 				11A831231C3ECB3D00A42A1A /* ImageViewController.xib */,
 			);
 			name = Controllers;
+			sourceTree = "<group>";
+		};
+		11A831271C4A49E900A42A1A /* Swift */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Swift;
+			sourceTree = "<group>";
+		};
+		11F53CA81C9850DD008031F5 /* Multithread */ = {
+			isa = PBXGroup;
+			children = (
+				11F53CA91C985106008031F5 /* MultithreadPractice.h */,
+				11F53CAA1C98516B008031F5 /* MultithreadPractice.m */,
+			);
+			name = Multithread;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -392,6 +413,7 @@
 				11A473721C397244001F8BBE /* CoreTextLinkData.m in Sources */,
 				11A4736F1C393FA4001F8BBE /* CoreTextImageData.m in Sources */,
 				11A473691C393A45001F8BBE /* CTFrameParser.m in Sources */,
+				11F53CAB1C98516B008031F5 /* MultithreadPractice.m in Sources */,
 				11A473611C38C6DC001F8BBE /* UIView+frameAdjust.m in Sources */,
 				11A473571C38183E001F8BBE /* CTDisplayView.m in Sources */,
 				11A473231C37BC8C001F8BBE /* AppDelegate.m in Sources */,

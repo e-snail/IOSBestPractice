@@ -31,6 +31,8 @@
 		11A831241C3ECB3D00A42A1A /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A831221C3ECB3D00A42A1A /* ImageViewController.m */; };
 		11A831251C3ECB3D00A42A1A /* ImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 11A831231C3ECB3D00A42A1A /* ImageViewController.xib */; };
 		11F53CAB1C98516B008031F5 /* MultithreadPractice.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F53CAA1C98516B008031F5 /* MultithreadPractice.m */; };
+		11F53CB11C9A42B1008031F5 /* NSOperationRelated.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F53CB01C9A42B1008031F5 /* NSOperationRelated.m */; };
+		11F53CB41C9A43E3008031F5 /* CustomizedNSOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 11F53CB31C9A43E3008031F5 /* CustomizedNSOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -98,6 +100,10 @@
 		11A831231C3ECB3D00A42A1A /* ImageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImageViewController.xib; sourceTree = "<group>"; };
 		11F53CA91C985106008031F5 /* MultithreadPractice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MultithreadPractice.h; sourceTree = "<group>"; };
 		11F53CAA1C98516B008031F5 /* MultithreadPractice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MultithreadPractice.m; sourceTree = "<group>"; };
+		11F53CAF1C9A429A008031F5 /* NSOperationRelated.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSOperationRelated.h; sourceTree = "<group>"; };
+		11F53CB01C9A42B1008031F5 /* NSOperationRelated.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationRelated.m; sourceTree = "<group>"; };
+		11F53CB21C9A43BA008031F5 /* CustomizedNSOperation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomizedNSOperation.h; sourceTree = "<group>"; };
+		11F53CB31C9A43E3008031F5 /* CustomizedNSOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomizedNSOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -270,6 +276,10 @@
 			children = (
 				11F53CA91C985106008031F5 /* MultithreadPractice.h */,
 				11F53CAA1C98516B008031F5 /* MultithreadPractice.m */,
+				11F53CAF1C9A429A008031F5 /* NSOperationRelated.h */,
+				11F53CB01C9A42B1008031F5 /* NSOperationRelated.m */,
+				11F53CB21C9A43BA008031F5 /* CustomizedNSOperation.h */,
+				11F53CB31C9A43E3008031F5 /* CustomizedNSOperation.m */,
 			);
 			name = Multithread;
 			sourceTree = "<group>";
@@ -414,6 +424,7 @@
 				11A4736F1C393FA4001F8BBE /* CoreTextImageData.m in Sources */,
 				11A473691C393A45001F8BBE /* CTFrameParser.m in Sources */,
 				11F53CAB1C98516B008031F5 /* MultithreadPractice.m in Sources */,
+				11F53CB11C9A42B1008031F5 /* NSOperationRelated.m in Sources */,
 				11A473611C38C6DC001F8BBE /* UIView+frameAdjust.m in Sources */,
 				11A473571C38183E001F8BBE /* CTDisplayView.m in Sources */,
 				11A473231C37BC8C001F8BBE /* AppDelegate.m in Sources */,
@@ -423,6 +434,7 @@
 				11A8311F1C3EC5F700A42A1A /* WebContentViewController.m in Sources */,
 				11A473201C37BC8C001F8BBE /* main.m in Sources */,
 				11A4737C1C397BEB001F8BBE /* CTViewController.m in Sources */,
+				11F53CB41C9A43E3008031F5 /* CustomizedNSOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

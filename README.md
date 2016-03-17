@@ -12,7 +12,8 @@
 ## 多线程编程
 #### 参考文档  
 
-#####《GCD 中 dispatch_once 的性能与实现》 http://blog.jimmyis.in/dispatch_once/
-#####《iOS-GCD使用技巧》http://cnbin.github.io/blog/2015/05/26/ios-gcdshi-yong-ji-qiao/
-#####《GCD 深入理解》https://github.com/nixzhu/dev-blog/blob/master/2014-04-19-grand-central-dispatch-in-depth-part-1.md
-#####《关于iOS多线程，你看我就够了》http://www.cocoachina.com/ios/20150731/12819.html 写的错误连篇。。。。
+##### [《GCD 中 dispatch_once 的性能与实现》](http://blog.jimmyis.in/dispatch_once/)
+##### [《iOS-GCD使用技巧》](http://cnbin.github.io/blog/2015/05/26/ios-gcdshi-yong-ji-qiao/)
+##### [《认识和使用NSOperation》](http://www.jianshu.com/p/2de9c776f226)
+##### [《GCD 深入理解》](https://github.com/nixzhu/dev-blog/blob/master/2014-04-19-grand-central-dispatch-in-depth-part-1.md)
+##### [《关于iOS多线程，你看我就够了》](http://www.cocoachina.com/ios/20150731/12819.html) 写的错误连篇。。。。

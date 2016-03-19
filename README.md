@@ -16,7 +16,7 @@
 ##### [《GCD 深入理解》](https://github.com/nixzhu/dev-blog/blob/master/2014-04-19-grand-central-dispatch-in-depth-part-1.md)
 ##### [《关于iOS多线程，你看我就够了》](http://www.cocoachina.com/ios/20150731/12819.html) 写的错误连篇。。。。
 
-## block
+## Block
 ##### [《谈Objective-C block的实现》](http://blog.devtang.com/2013/07/28/a-look-inside-blocks/)
 
 ## Category
@@ -25,3 +25,6 @@
     2, 将一个类的实现拆分成多个独立的源文件；
     3, 声明私有的方法。
 ##### [《Category 的实现原理》](http://blog.leichunfeng.com/blog/2015/05/18/objective-c-category-implementation-principle/)
+
+## 类扩展
+##### [《扩展和类别的对别》](http://www.jianshu.com/p/18d48e7f2aad)

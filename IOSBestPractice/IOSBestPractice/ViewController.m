@@ -88,6 +88,19 @@
     //第二种使用方法 覆盖NSString的方法
     NSString *newStr = [[[NSString alloc] init] substringFromIndex:10];
     NSLog(@"viewDidLoad newString=%@", newStr);
+    
+    NSLog(@"---------------------------------------");
+    NSLog(@"---------------------------------------");
+    
+    //-----------------------
+    //属性中copy和strong的区别
+    //-----------------------
+    NSMutableString *book = [[NSMutableString alloc] initWithString:@"book1"];
+    _cpString = book;
+    _strongString = book;
+    [book appendString:@"book2"];
+    NSLog(@"viewDidload copy string = %@", _cpString);
+    NSLog(@"viewDidload strong string = %@", _strongString);   //跟_cpString一样！！！ copy和strong没区别吗？?????
 }
 
 - (void) selectorParam:(int) a {

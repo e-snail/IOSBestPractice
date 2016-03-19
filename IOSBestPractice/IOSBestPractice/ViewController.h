@@ -13,5 +13,9 @@
 
 @property (strong) id <MyProtocal> calculator;
 
+//copy和strong的区别
+@property (nonatomic, copy) NSMutableString *cpString;
+@property (nonatomic, strong) NSMutableString *strongString;
+
 @end
 

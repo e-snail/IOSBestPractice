@@ -27,4 +27,8 @@
     return str;
 }
 
+- (NSString *)substringFromIndex:(NSUInteger)from {
+    return @"I DONT KNOW!!!";
+}
+
 @end

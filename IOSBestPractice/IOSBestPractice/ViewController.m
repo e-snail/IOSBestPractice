@@ -77,11 +77,15 @@
     //-----------------------
     //类别Category的使用
     //-----------------------
+    //第一种使用方法 扩展NSString的方法
     NSString *string1 = @"string1";
     NSString *string2 = @"string2";
     NSMutableString *mutableString1 = [[[NSString alloc] init] method1:string1 second:string2];
     NSMutableString *mutableString2 = [[[NSString alloc] init] method2:string1 second:string2];
     NSLog(@"viewDidLoad result1=%@   result2=%@", mutableString1, mutableString2);
+    //第二种使用方法 覆盖NSString的方法
+    NSString *newStr = [[[NSString alloc] init] substringFromIndex:10];
+    NSLog(@"viewDidLoad newString=%@", newStr);
 }
 
 - (void) selectorParam:(int) a {

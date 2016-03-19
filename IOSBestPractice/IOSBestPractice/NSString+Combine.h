@@ -15,6 +15,7 @@
 
 - (NSMutableString *)method1:(NSString*) str1 second:(NSString *)str2;
 - (NSMutableString *)method2:(NSString*) str1 second:(NSString *)str2;
+- (NSString *)substringFromIndex:(NSUInteger)from;
 
 @end
 

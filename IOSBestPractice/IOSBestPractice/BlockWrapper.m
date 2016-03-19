@@ -19,7 +19,9 @@ typedef int (^singleInt)(int);
 //    return pow(a, times);
 //};
 
-@interface BlockWrapper ()
+@interface BlockWrapper ()  //终于明白这个括号就是类扩展了
+
+@property (nonatomic, strong) NSString *propertyString;
 
 @end
 

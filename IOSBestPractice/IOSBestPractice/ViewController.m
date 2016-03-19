@@ -14,6 +14,8 @@
 
 @interface ViewController ()
 
+@property (weak, nonatomic) IBOutlet UIButton *button1;
+
 @end
 
 @implementation ViewController
@@ -90,6 +92,9 @@
 
 - (void) selectorParam:(int) a {
     NSLog(@"selectorParam param=%u", a);
+}
+
+- (IBAction)button1Pressed:(id)sender {
 }
 
 @end

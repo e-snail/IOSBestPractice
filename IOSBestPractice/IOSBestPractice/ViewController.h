@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyProtocal.h"
 
 @interface ViewController : UIViewController
 
+@property (strong) id <MyProtocal> calculator;
 
 @end
 

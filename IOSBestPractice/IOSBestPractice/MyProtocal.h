@@ -6,8 +6,19 @@
 //  Copyright © 2016年 Wilbur.Wu. All rights reserved.
 //
 
-#ifndef MyProtocal_h
-#define MyProtocal_h
+#ifndef MYPROTOCAL_XXXX
+#define MYPROTOCAL_XXXX
 
+@protocol MyProtocal <NSObject>
 
-#endif /* MyProtocal_h */
+@required
+- (int) add:(int) value1 second:(int) value2;
+- (int) minus:(int) value1 second:(int) value2;
+
+@optional
+- (int) multiply:(int) value1 second:(int) value2;
+- (int) devide:(int) value1 second:(int) value2;
+
+@end
+
+#endif

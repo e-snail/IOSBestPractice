@@ -6,8 +6,9 @@
 //  Copyright © 2016年 Wilbur.Wu. All rights reserved.
 //
 
-#ifndef ProtocalUsage_h
-#define ProtocalUsage_h
+#import <Foundation/Foundation.h>
+#import "MyProtocal.h"
 
+@interface ProtocalUsage : NSObject <MyProtocal>
 
-#endif /* ProtocalUsage_h */
+@end

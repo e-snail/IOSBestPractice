@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		117C2B541C9B07210040B6F3 /* BlockWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 117C2B531C9B07210040B6F3 /* BlockWrapper.m */; };
+		117C2B5A1C9D39EB0040B6F3 /* ProtocalUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = 117C2B591C9D39EB0040B6F3 /* ProtocalUsage.m */; };
+		117C2B631C9D50930040B6F3 /* NSString+Combine.m in Sources */ = {isa = PBXBuildFile; fileRef = 117C2B621C9D50930040B6F3 /* NSString+Combine.m */; };
 		11A473201C37BC8C001F8BBE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A4731F1C37BC8C001F8BBE /* main.m */; };
 		11A473231C37BC8C001F8BBE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A473221C37BC8C001F8BBE /* AppDelegate.m */; };
 		11A473261C37BC8C001F8BBE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 11A473251C37BC8C001F8BBE /* ViewController.m */; };
@@ -53,6 +56,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		117C2B521C9B070B0040B6F3 /* BlockWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlockWrapper.h; sourceTree = "<group>"; };
+		117C2B531C9B07210040B6F3 /* BlockWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlockWrapper.m; sourceTree = "<group>"; };
+		117C2B561C9D38EE0040B6F3 /* MyProtocal.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyProtocal.h; sourceTree = "<group>"; };
+		117C2B591C9D39EB0040B6F3 /* ProtocalUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProtocalUsage.m; sourceTree = "<group>"; };
+		117C2B5B1C9D3F040040B6F3 /* ProtocalUsage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProtocalUsage.h; sourceTree = "<group>"; };
+		117C2B611C9D50780040B6F3 /* NSString+Combine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSString+Combine.h"; sourceTree = "<group>"; };
+		117C2B621C9D50930040B6F3 /* NSString+Combine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Combine.m"; sourceTree = "<group>"; };
 		11A4731B1C37BC8C001F8BBE /* IOSBestPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IOSBestPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		11A4731F1C37BC8C001F8BBE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		11A473211C37BC8C001F8BBE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -131,6 +141,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		117C2B511C9B06F80040B6F3 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+				117C2B521C9B070B0040B6F3 /* BlockWrapper.h */,
+				117C2B531C9B07210040B6F3 /* BlockWrapper.m */,
+			);
+			name = Block;
+			sourceTree = "<group>";
+		};
+		117C2B551C9D38C10040B6F3 /* Protocal */ = {
+			isa = PBXGroup;
+			children = (
+				117C2B561C9D38EE0040B6F3 /* MyProtocal.h */,
+				117C2B5B1C9D3F040040B6F3 /* ProtocalUsage.h */,
+				117C2B591C9D39EB0040B6F3 /* ProtocalUsage.m */,
+			);
+			name = Protocal;
+			sourceTree = "<group>";
+		};
+		117C2B5D1C9D50170040B6F3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				117C2B611C9D50780040B6F3 /* NSString+Combine.h */,
+				117C2B621C9D50930040B6F3 /* NSString+Combine.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
 		11A473121C37BC8C001F8BBE = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +192,9 @@
 		11A4731D1C37BC8C001F8BBE /* IOSBestPractice */ = {
 			isa = PBXGroup;
 			children = (
+				117C2B5D1C9D50170040B6F3 /* Category */,
+				117C2B551C9D38C10040B6F3 /* Protocal */,
+				117C2B511C9B06F80040B6F3 /* Block */,
 				11F53CA81C9850DD008031F5 /* Multithread */,
 				11A831271C4A49E900A42A1A /* Swift */,
 				11A473551C3817F5001F8BBE /* CoreText */,
@@ -426,6 +467,7 @@
 				11F53CAB1C98516B008031F5 /* MultithreadPractice.m in Sources */,
 				11F53CB11C9A42B1008031F5 /* NSOperationRelated.m in Sources */,
 				11A473611C38C6DC001F8BBE /* UIView+frameAdjust.m in Sources */,
+				117C2B5A1C9D39EB0040B6F3 /* ProtocalUsage.m in Sources */,
 				11A473571C38183E001F8BBE /* CTDisplayView.m in Sources */,
 				11A473231C37BC8C001F8BBE /* AppDelegate.m in Sources */,
 				11A4736C1C393C2B001F8BBE /* CoreTextData.m in Sources */,
@@ -433,6 +475,8 @@
 				11A473651C38CA2A001F8BBE /* CTFrameParserConfig.m in Sources */,
 				11A8311F1C3EC5F700A42A1A /* WebContentViewController.m in Sources */,
 				11A473201C37BC8C001F8BBE /* main.m in Sources */,
+				117C2B541C9B07210040B6F3 /* BlockWrapper.m in Sources */,
+				117C2B631C9D50930040B6F3 /* NSString+Combine.m in Sources */,
 				11A4737C1C397BEB001F8BBE /* CTViewController.m in Sources */,
 				11F53CB41C9A43E3008031F5 /* CustomizedNSOperation.m in Sources */,
 			);

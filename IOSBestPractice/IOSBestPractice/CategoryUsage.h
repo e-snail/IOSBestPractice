@@ -9,5 +9,8 @@
 #ifndef CategoryUsage_h
 #define CategoryUsage_h
 
+@interface <#class name#> : <#superclass#>
+
+@end
 
 #endif /* CategoryUsage_h */

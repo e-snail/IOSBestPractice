@@ -31,3 +31,6 @@
 
 ## 类扩展
 ##### [《扩展和类别的对别》](http://www.jianshu.com/p/18d48e7f2aad)
+
+## 内存管理
+##### [《iOS内存管理机制解析》](http://www.jianshu.com/p/66b5d43b6ac4)

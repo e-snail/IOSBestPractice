@@ -35,5 +35,5 @@
 ## 内存管理
 ##### [《iOS内存管理机制解析》](http://www.jianshu.com/p/66b5d43b6ac4)
 
-## 工具
-##### [《iOS性能优化》(http://www.jianshu.com/p/9e1f0b44935c)]
+## 工具 Instruments
+##### [《iOS性能优化》](http://www.jianshu.com/p/9e1f0b44935c)

@@ -38,3 +38,9 @@
 
 ## 工具 Instruments
 ##### [《iOS性能优化》](http://www.jianshu.com/p/9e1f0b44935c)
+
+## Runtime
+##### [《Objective-C runtime之运行时的基本特点》](http://blog.csdn.net/wzzvictory/article/details/8615569)
+##### [《Objective-C runtime之消息》](http://blog.csdn.net/wzzvictory/article/details/8624057)
+##### [《Objective-C runtime之消息转发机制》](http://blog.csdn.net/wzzvictory/article/details/8629036)
+##### [《Objective-C Runtime 运行时》系列文章](http://southpeak.github.io/blog/2014/10/25/objective-c-runtime-yun-xing-shi-zhi-lei-yu-dui-xiang/)
